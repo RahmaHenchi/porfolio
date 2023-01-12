@@ -12,9 +12,9 @@ function App() {
         <Navbar />
         <div className='container'>
           <Route path='/' component={Home} exact />
-          <Route path='/skills' component={Skills} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/Skills' component={Skills} />
+          <Route path='/Projects' component={Projects} />
+          <Route path='/Contact' component={Contact} />
         </div>
       </BrowserRouter>
     </div>
