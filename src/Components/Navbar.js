@@ -11,7 +11,7 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item nav-link">
-              {/* <a class="nav-link active" aria-current="page" href="#">Potfolio</a>*/ }
+              {/* <a class="nav-link active" aria-current="page" href="#">Home</a>*/ }
               <NavLink to='/' exact>Home</NavLink>
             </li>
             <li class="nav-item nav-link">
