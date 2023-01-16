@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Contact from './pages/Contact';
-import Home from './pages/Home'
-import NotFound from './pages/NotFound';
-import Projects from './pages/Projects';
-import SkillDetails from './pages/SkillDetails';
-import Skills from './pages/Skills';
+import Navbar from './Components/Navbar'
+import Contact from './Pages/Contact';
+import Home from './Pages/Home'
+import NotFound from './Pages/NotFound';
+import Projects from './Pages/Projects';
+import SkillDetails from './Pages/SkillDetails';
+import Skills from './Pages/Skills';
 
 function App() {
   return (
