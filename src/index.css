@@ -12,10 +12,17 @@ a {
   text-decoration: none !important;
 }
 
+
 .contact-item {
   display: flex;
 }
 
 .contact-item i {
   margin-right: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+
 }
