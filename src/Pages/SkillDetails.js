@@ -4,14 +4,16 @@ import axios from 'axios'
 
 function SkillDetails() {
   const params =  useParams()
-  console.log("params:", params);
+  console.log("params:", params)
   const technologyId = params.identifier
+
   const [technologies, setTechnologies] = useState([])
   useEffect(() => {
     axios.get('https://devmastery-assets.vercel.app/technologies.json')
-      .then(respone => setTechnologies(respone.data))
+      .then(response => setTechnologies(response.data))
       .catch(error => console.log(error))
   }, [])
+  
   const [technology, setTechnology] = useState(null)
   useEffect(() => {
     if (technologies.length > 0) {
