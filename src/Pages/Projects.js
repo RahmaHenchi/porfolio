@@ -34,7 +34,7 @@ function Projects() {
       </div>
 
       <div class="card" style={{ width: 300, marginBottom: 20 }}>
-        <img src='/agenda.png' class="card-img-top" alt="Agenda" />
+        <img src='/agenda1.png' class="card-img-top" alt="Agenda" />
         <div class="card-body">
           <h5 class="card-title">Agenda</h5>
         </div>
